@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Swiper demo T</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="lib/swiper-4.1.6/css/swiper.min.css">
+		<!-- Demo styles -->
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<!-- DIY styles -->
+		<link rel="stylesheet" type="text/css" href="css/my-style.css" />
+		<style type="text/css">
+			.main-content{
+				text-align: center;
+				padding: 10px;
+			}
+			.pre{
+				display: inline-block;
+				width: 45px;
+			    height: 100%;
+			    border: 1px solid #2c2c2c;
+			    text-align: center;
+			    margin: 0 20px;
+			    vertical-align: middle;
+			    line-height: 105px;
+			    font-size: 30px;
+			    border-radius: 3px;
+			    cursor: pointer;
+			}
+			.next{
+				display: inline-block;
+				width: 45px;
+			    height: 100%;
+			    border: 1px solid #2c2c2c;
+			    text-align: center;
+			    margin: 0 20px;
+			    vertical-align: middle;
+			    line-height: 105px;
+			    font-size: 30px;
+			    border-radius: 3px;
+			    cursor: pointer;
+			}
+			.swiper-container{
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.swiper-slide{
+				cursor: pointer;
+				font-size: 14px;
+				border-radius: 3px;
+			}
+			.swiper-slide-selected{
+				border-top: 2px solid blue;
+			}
+			.swiper-slide-item{
+				width: 100%;
+    			height: 100%;
+				padding: 5px;
+				text-align: left;
+			}
+			.swiper-slide-title{
+				font-size: 16px;
+				font-weight: bold;
+			}
+			.swiper-slide-group{
+				margin: 5px 0;
+			}
+			.swiper-slide-content{
+				font-size: 12px;
+			}
+			.swiper-slide-remark{
+				font-size: 12px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="main-content">
+			<div class="pre">《</div>
+			<!-- Swiper -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="swiper-slide-item">
+							<div class="swiper-slide-title">主演</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									赵丽颖·本尊
+								</div>
+								<div class="swiper-slide-remark">
+									超人气女演员
+								</div>
+							</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									代表作品
+								</div>
+								<div class="swiper-slide-remark">
+									《花千骨》
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide swiper-slide-selected">
+						<div class="swiper-slide-item">
+							<div class="swiper-slide-title">主演</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									赵丽颖1
+								</div>
+								<div class="swiper-slide-remark">
+									超人气女演员
+								</div>
+							</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									代表作品
+								</div>
+								<div class="swiper-slide-remark">
+									《花千骨》
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper-slide-item">
+							<div class="swiper-slide-title">主演</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									赵丽颖2
+								</div>
+								<div class="swiper-slide-remark">
+									超人气女演员
+								</div>
+							</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									代表作品
+								</div>
+								<div class="swiper-slide-remark">
+									《花千骨》
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper-slide-item">
+							<div class="swiper-slide-title">主演</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									赵丽颖3
+								</div>
+								<div class="swiper-slide-remark">
+									超人气女演员
+								</div>
+							</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									代表作品
+								</div>
+								<div class="swiper-slide-remark">
+									《花千骨》
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper-slide-item">
+							<div class="swiper-slide-title">主演</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									赵丽颖4
+								</div>
+								<div class="swiper-slide-remark">
+									超人气女演员
+								</div>
+							</div>
+							<div class="swiper-slide-group">
+								<div class="swiper-slide-content">
+									代表作品
+								</div>
+								<div class="swiper-slide-remark">
+									《花千骨》
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">敬请关注...</div>
+					<!--<div class="swiper-slide">Slide 7</div>
+					<div class="swiper-slide">Slide 8</div>
+					<div class="swiper-slide">Slide 9</div>
+					<div class="swiper-slide">Slide 10</div>-->
+				</div>
+			</div>
+			<div class="next">》</div>
+		</div>
+		
+		<!-- Swiper JS -->
+		<script type="text/javascript" src="lib/swiper-4.1.6/js/swiper.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				slidesPerView: 5,
+				spaceBetween: 30,
+				slidesPerGroup: 1,
+				loop: true,
+				loopFillGroupWithBlank: false,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.next',
+					prevEl: '.pre',
+				},
+			});
+		</script>
+	</body>
+
+</html>
