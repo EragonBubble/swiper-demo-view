@@ -1,4 +1,4 @@
-#### 模块切换轮播效果案例  
+#### 案例：模块切换轮播效果  
 
 本案例采用第三方插件[swiper-4.1.6](http://www.swiper.com.cn/api/index.html)编写。  
 
